@@ -1,0 +1,11 @@
+#! /bin/sh
+#/bin/mount -a
+#my add:
+echo "----------mount all"
+/bin/mount -a
+echo "----------Starting mdev......"
+/bin/echo /sbin/mdev > /proc/sys/kernel/hotplug
+mdev -s
+echo "***********************************************************"
+echo "* 		ok6410 Rootfs(nfs)   2012.6 fantao 	*"
+echo "***********************************************************"

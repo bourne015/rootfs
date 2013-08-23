@@ -1,0 +1,7 @@
+::sysinit:/etc/init.d/rcS
+::respawn:-/bin/sh
+###//这个是我自己mark掉的，否则后面会报错找不到tty2
+tty1::askfirst:-/bin/sh
+::ctrlaltdel:/bin/umount -a -r
+::shutdown:/bin/umount -a -r
+::shutdown:/sbin/swapoff -a

@@ -1,0 +1,8 @@
+kernel/crypto/crc32c.ko
+
+kernel/drivers/net/dm9000.ko platform:dm9000
+
+kernel/drivers/scsi/scsi_wait_scan.ko
+
+kernel/drivers/ssb/ssb.ko symbol:ssb_admatch_size symbol:ssb_admatch_base symbol:ssb_bus_powerup symbol:ssb_bus_may_powerdown symbol:ssb_dma_translation symbol:ssb_device_disable symbol:ssb_device_enable symbol:ssb_device_is_enabled symbol:ssb_clockspeed symbol:ssb_set_devtypedata symbol:ssb_driver_unregister symbol:__ssb_driver_register symbol:ssb_bus_unregister symbol:ssb_bus_suspend symbol:ssb_bus_resume symbol:ssb_chipco_gpio_control symbol:ssb_pmu_set_ldo_paref symbol:ssb_pmu_set_ldo_voltage
+
